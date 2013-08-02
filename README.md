@@ -1,7 +1,6 @@
 # ADNPebbleApp
 
 I built this app in the **app.net hackathon** held June 8th in San Francisco.
-![Hackathon](http://d366upiihda498.cloudfront.net/wp-content/uploads/2013/06/2013-06-08-21.14.12.jpg)
 
 ##Installation
 
