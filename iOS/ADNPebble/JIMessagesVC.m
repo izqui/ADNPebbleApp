@@ -113,8 +113,11 @@
 
 -(void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{
     
+   
     [Message deleteMessageAtIndex:indexPath.row];
-    [self.tableView reloadData];
+    [NSTimer scheduledTimerWithTimeInterval:.3 target:tableView selector:@selector(reloadData) userInfo:nil repeats:NO];
+    
 }
+
 
 @end

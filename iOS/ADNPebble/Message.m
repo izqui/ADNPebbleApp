@@ -33,7 +33,7 @@
 }
 +(void)addMessage:(NSString *)message{
     
-    if ([message length] > 40){
+    if ([message length] > MaxChars){
         
         [Helpers errorAlert:[NSString stringWithFormat:@"%i chars is the maximum", MaxChars]];
         return;
@@ -47,7 +47,7 @@
     
     if (array.count >= MaxMessages){
         
-        [Helpers errorAlert:[NSString stringWithFormat:@"You only can add %i. Delete some.", MaxChars]];
+        [Helpers errorAlert:[NSString stringWithFormat:@"You only can add %i. Delete some.", MaxMessages]];
         return;
     }
     [array addObject:@{@"title":message}];

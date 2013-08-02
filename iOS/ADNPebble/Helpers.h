@@ -11,9 +11,8 @@
 
 #define Width CGRectGetWidth([UIScreen mainScreen].bounds)
 #define Height CGRectGetHeight([UIScreen mainScreen].bounds)
-#define MaxChars 40
-#define MaxMessages 10
-
+#define MaxChars 256
+#define MaxMessages 5
 
 
 @interface Helpers : NSObject

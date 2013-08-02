@@ -81,7 +81,13 @@ static const uint8_t pebbleAppUUID[] = { 0x3C, 0xB4, 0x32, 0xD0, 0xD2, 0xF8, 0x4
                     
                     for (NSDictionary *d in messages){
                         
-                        [a addObject:d[@"title"]];
+                        NSString *topeb = d[@"title"];
+                        if (topeb.length > 15){
+                            
+                           topeb = [[d[@"title"] substringToIndex:15] stringByAppendingString:@"..."];
+                        }
+                        
+                        [a addObject:topeb];
                     }
                     
                     [self sendStringArray:a];
