@@ -8,12 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		92D7DB0FB59D4AC9A0E5E57E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED4AD0C374C4B9F9AA49E32 /* libPods.a */; };
+		DA013A0A17AC3279005F2546 /* ADNHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA013A0917AC3279005F2546 /* ADNHTTPClient.m */; };
 		DA0B3B3C1763DAF300FD51B3 /* JIMessagesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B3B3B1763DAF300FD51B3 /* JIMessagesVC.m */; };
 		DA0B3B411763DF3200FD51B3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0B3B401763DF3200FD51B3 /* CoreData.framework */; };
 		DA1DF5261763F44600460E40 /* Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1DF5251763F44600460E40 /* Helpers.m */; };
 		DA1DF52F1763F91900460E40 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1DF52E1763F91900460E40 /* Message.m */; };
-		DA1DF535176424A600460E40 /* ADNHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1DF534176424A500460E40 /* ADNHTTPClient.m */; };
-		DA1DF5381765143700460E40 /* ADNHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1DF5371765143700460E40 /* ADNHandler.m */; };
 		DA8772211763A52E007B6FD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8772201763A52E007B6FD4 /* UIKit.framework */; };
 		DA8772231763A52E007B6FD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8772221763A52E007B6FD4 /* Foundation.framework */; };
 		DA8772251763A52E007B6FD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8772241763A52E007B6FD4 /* CoreGraphics.framework */; };
@@ -37,6 +36,8 @@
 /* Begin PBXFileReference section */
 		4ED4AD0C374C4B9F9AA49E32 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C45DB8C5574341C5B1B8CED7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		DA013A0817AC3279005F2546 /* ADNHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNHTTPClient.h; sourceTree = "<group>"; };
+		DA013A0917AC3279005F2546 /* ADNHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNHTTPClient.m; sourceTree = "<group>"; };
 		DA0B3B3A1763DAF300FD51B3 /* JIMessagesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIMessagesVC.h; sourceTree = "<group>"; };
 		DA0B3B3B1763DAF300FD51B3 /* JIMessagesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIMessagesVC.m; sourceTree = "<group>"; };
 		DA0B3B401763DF3200FD51B3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
@@ -44,10 +45,6 @@
 		DA1DF5251763F44600460E40 /* Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helpers.m; sourceTree = "<group>"; };
 		DA1DF52D1763F91800460E40 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
 		DA1DF52E1763F91900460E40 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
-		DA1DF533176424A500460E40 /* ADNHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADNHTTPClient.h; path = "../../Appchive/Mac App/Appchive/ADNHTTPClient.h"; sourceTree = "<group>"; };
-		DA1DF534176424A500460E40 /* ADNHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADNHTTPClient.m; path = "../../Appchive/Mac App/Appchive/ADNHTTPClient.m"; sourceTree = "<group>"; };
-		DA1DF5361765143700460E40 /* ADNHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNHandler.h; sourceTree = "<group>"; };
-		DA1DF5371765143700460E40 /* ADNHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNHandler.m; sourceTree = "<group>"; };
 		DA87721D1763A52E007B6FD4 /* ADNPebble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADNPebble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8772201763A52E007B6FD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		DA8772221763A52E007B6FD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -102,14 +99,12 @@
 			children = (
 				DA87723F1763A987007B6FD4 /* JIPebbleInterface.h */,
 				DA8772401763A987007B6FD4 /* JIPebbleInterface.m */,
-				DA1DF5361765143700460E40 /* ADNHandler.h */,
-				DA1DF5371765143700460E40 /* ADNHandler.m */,
 				DA8772491763C5C7007B6FD4 /* ADNLogin.h */,
 				DA87724A1763C5C7007B6FD4 /* ADNLogin.m */,
 				DA1DF52D1763F91800460E40 /* Message.h */,
 				DA1DF52E1763F91900460E40 /* Message.m */,
-				DA1DF533176424A500460E40 /* ADNHTTPClient.h */,
-				DA1DF534176424A500460E40 /* ADNHTTPClient.m */,
+				DA013A0817AC3279005F2546 /* ADNHTTPClient.h */,
+				DA013A0917AC3279005F2546 /* ADNHTTPClient.m */,
 			);
 			name = M;
 			sourceTree = "<group>";
@@ -299,10 +294,9 @@
 				DA8772411763A987007B6FD4 /* JIPebbleInterface.m in Sources */,
 				DA87724B1763C5C7007B6FD4 /* ADNLogin.m in Sources */,
 				DA0B3B3C1763DAF300FD51B3 /* JIMessagesVC.m in Sources */,
+				DA013A0A17AC3279005F2546 /* ADNHTTPClient.m in Sources */,
 				DA1DF5261763F44600460E40 /* Helpers.m in Sources */,
 				DA1DF52F1763F91900460E40 /* Message.m in Sources */,
-				DA1DF535176424A600460E40 /* ADNHTTPClient.m in Sources */,
-				DA1DF5381765143700460E40 /* ADNHandler.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
