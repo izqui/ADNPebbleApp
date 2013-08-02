@@ -1,0 +1,11 @@
+{
+    "media": [
+        {
+            "defName": "DUMMY",
+            "type": "raw",
+            "file": "resource_map.json"
+        }
+    ],
+    "friendlyVersion": "VERSION",
+    "versionDefName": "APP_RESOURCES"
+}

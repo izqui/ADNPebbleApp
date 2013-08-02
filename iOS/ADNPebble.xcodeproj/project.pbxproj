@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		92D7DB0FB59D4AC9A0E5E57E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED4AD0C374C4B9F9AA49E32 /* libPods.a */; };
+		DA0B3B3C1763DAF300FD51B3 /* JIMessagesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0B3B3B1763DAF300FD51B3 /* JIMessagesVC.m */; };
+		DA0B3B411763DF3200FD51B3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0B3B401763DF3200FD51B3 /* CoreData.framework */; };
+		DA1DF5261763F44600460E40 /* Helpers.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1DF5251763F44600460E40 /* Helpers.m */; };
+		DA1DF52F1763F91900460E40 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1DF52E1763F91900460E40 /* Message.m */; };
+		DA1DF535176424A600460E40 /* ADNHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1DF534176424A500460E40 /* ADNHTTPClient.m */; };
+		DA1DF5381765143700460E40 /* ADNHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DA1DF5371765143700460E40 /* ADNHandler.m */; };
+		DA8772211763A52E007B6FD4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8772201763A52E007B6FD4 /* UIKit.framework */; };
+		DA8772231763A52E007B6FD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8772221763A52E007B6FD4 /* Foundation.framework */; };
+		DA8772251763A52E007B6FD4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8772241763A52E007B6FD4 /* CoreGraphics.framework */; };
+		DA87722B1763A52E007B6FD4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DA8772291763A52E007B6FD4 /* InfoPlist.strings */; };
+		DA87722D1763A52E007B6FD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA87722C1763A52E007B6FD4 /* main.m */; };
+		DA8772311763A52E007B6FD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8772301763A52E007B6FD4 /* AppDelegate.m */; };
+		DA8772331763A52E007B6FD4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8772321763A52E007B6FD4 /* Default.png */; };
+		DA8772351763A52E007B6FD4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8772341763A52E007B6FD4 /* Default@2x.png */; };
+		DA8772371763A52E007B6FD4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8772361763A52E007B6FD4 /* Default-568h@2x.png */; };
+		DA87723E1763A904007B6FD4 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA87723D1763A904007B6FD4 /* PebbleKit.framework */; };
+		DA8772411763A987007B6FD4 /* JIPebbleInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8772401763A987007B6FD4 /* JIPebbleInterface.m */; };
+		DA8772431763B402007B6FD4 /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8772421763B402007B6FD4 /* PebbleVendor.framework */; };
+		DA8772451763B41F007B6FD4 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8772441763B41F007B6FD4 /* ExternalAccessory.framework */; };
+		DA8772471763B42A007B6FD4 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8772461763B42A007B6FD4 /* libz.dylib */; };
+		DA87724B1763C5C7007B6FD4 /* ADNLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = DA87724A1763C5C7007B6FD4 /* ADNLogin.m */; };
+		DA87724D1763C612007B6FD4 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA87724C1763C612007B6FD4 /* CoreBluetooth.framework */; };
+		DA87724F1763C6E2007B6FD4 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA87724E1763C6E2007B6FD4 /* CoreMotion.framework */; };
+		DA8772511763C6E9007B6FD4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8772501763C6E9007B6FD4 /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4ED4AD0C374C4B9F9AA49E32 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45DB8C5574341C5B1B8CED7 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		DA0B3B3A1763DAF300FD51B3 /* JIMessagesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIMessagesVC.h; sourceTree = "<group>"; };
+		DA0B3B3B1763DAF300FD51B3 /* JIMessagesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIMessagesVC.m; sourceTree = "<group>"; };
+		DA0B3B401763DF3200FD51B3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DA1DF5241763F44600460E40 /* Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
+		DA1DF5251763F44600460E40 /* Helpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Helpers.m; sourceTree = "<group>"; };
+		DA1DF52D1763F91800460E40 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		DA1DF52E1763F91900460E40 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		DA1DF533176424A500460E40 /* ADNHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ADNHTTPClient.h; path = "../../Appchive/Mac App/Appchive/ADNHTTPClient.h"; sourceTree = "<group>"; };
+		DA1DF534176424A500460E40 /* ADNHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ADNHTTPClient.m; path = "../../Appchive/Mac App/Appchive/ADNHTTPClient.m"; sourceTree = "<group>"; };
+		DA1DF5361765143700460E40 /* ADNHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNHandler.h; sourceTree = "<group>"; };
+		DA1DF5371765143700460E40 /* ADNHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNHandler.m; sourceTree = "<group>"; };
+		DA87721D1763A52E007B6FD4 /* ADNPebble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADNPebble.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8772201763A52E007B6FD4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DA8772221763A52E007B6FD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DA8772241763A52E007B6FD4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DA8772281763A52E007B6FD4 /* ADNPebble-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ADNPebble-Info.plist"; sourceTree = "<group>"; };
+		DA87722A1763A52E007B6FD4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DA87722C1763A52E007B6FD4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA87722E1763A52E007B6FD4 /* ADNPebble-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ADNPebble-Prefix.pch"; sourceTree = "<group>"; };
+		DA87722F1763A52E007B6FD4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA8772301763A52E007B6FD4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA8772321763A52E007B6FD4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DA8772341763A52E007B6FD4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DA8772361763A52E007B6FD4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DA87723D1763A904007B6FD4 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleKit.framework; sourceTree = "<group>"; };
+		DA87723F1763A987007B6FD4 /* JIPebbleInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIPebbleInterface.h; sourceTree = "<group>"; };
+		DA8772401763A987007B6FD4 /* JIPebbleInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIPebbleInterface.m; sourceTree = "<group>"; };
+		DA8772421763B402007B6FD4 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleVendor.framework; sourceTree = "<group>"; };
+		DA8772441763B41F007B6FD4 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		DA8772461763B42A007B6FD4 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		DA8772491763C5C7007B6FD4 /* ADNLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADNLogin.h; sourceTree = "<group>"; };
+		DA87724A1763C5C7007B6FD4 /* ADNLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADNLogin.m; sourceTree = "<group>"; };
+		DA87724C1763C612007B6FD4 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		DA87724E1763C6E2007B6FD4 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		DA8772501763C6E9007B6FD4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA87721A1763A52E007B6FD4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0B3B411763DF3200FD51B3 /* CoreData.framework in Frameworks */,
+				DA8772511763C6E9007B6FD4 /* MessageUI.framework in Frameworks */,
+				DA87724F1763C6E2007B6FD4 /* CoreMotion.framework in Frameworks */,
+				DA87724D1763C612007B6FD4 /* CoreBluetooth.framework in Frameworks */,
+				DA8772471763B42A007B6FD4 /* libz.dylib in Frameworks */,
+				DA8772451763B41F007B6FD4 /* ExternalAccessory.framework in Frameworks */,
+				DA8772211763A52E007B6FD4 /* UIKit.framework in Frameworks */,
+				DA8772231763A52E007B6FD4 /* Foundation.framework in Frameworks */,
+				DA8772251763A52E007B6FD4 /* CoreGraphics.framework in Frameworks */,
+				DA87723E1763A904007B6FD4 /* PebbleKit.framework in Frameworks */,
+				DA8772431763B402007B6FD4 /* PebbleVendor.framework in Frameworks */,
+				92D7DB0FB59D4AC9A0E5E57E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA1DF5391765144B00460E40 /* M */ = {
+			isa = PBXGroup;
+			children = (
+				DA87723F1763A987007B6FD4 /* JIPebbleInterface.h */,
+				DA8772401763A987007B6FD4 /* JIPebbleInterface.m */,
+				DA1DF5361765143700460E40 /* ADNHandler.h */,
+				DA1DF5371765143700460E40 /* ADNHandler.m */,
+				DA8772491763C5C7007B6FD4 /* ADNLogin.h */,
+				DA87724A1763C5C7007B6FD4 /* ADNLogin.m */,
+				DA1DF52D1763F91800460E40 /* Message.h */,
+				DA1DF52E1763F91900460E40 /* Message.m */,
+				DA1DF533176424A500460E40 /* ADNHTTPClient.h */,
+				DA1DF534176424A500460E40 /* ADNHTTPClient.m */,
+			);
+			name = M;
+			sourceTree = "<group>";
+		};
+		DA1DF53A1765145000460E40 /* V */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = V;
+			sourceTree = "<group>";
+		};
+		DA1DF53B1765145200460E40 /* C */ = {
+			isa = PBXGroup;
+			children = (
+				DA0B3B3A1763DAF300FD51B3 /* JIMessagesVC.h */,
+				DA0B3B3B1763DAF300FD51B3 /* JIMessagesVC.m */,
+			);
+			name = C;
+			sourceTree = "<group>";
+		};
+		DA8772141763A52D007B6FD4 = {
+			isa = PBXGroup;
+			children = (
+				DA8772261763A52E007B6FD4 /* ADNPebble */,
+				DA87721F1763A52E007B6FD4 /* Frameworks */,
+				DA87721E1763A52E007B6FD4 /* Products */,
+				C45DB8C5574341C5B1B8CED7 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		DA87721E1763A52E007B6FD4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA87721D1763A52E007B6FD4 /* ADNPebble.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA87721F1763A52E007B6FD4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA0B3B401763DF3200FD51B3 /* CoreData.framework */,
+				DA8772501763C6E9007B6FD4 /* MessageUI.framework */,
+				DA87724E1763C6E2007B6FD4 /* CoreMotion.framework */,
+				DA87724C1763C612007B6FD4 /* CoreBluetooth.framework */,
+				DA8772461763B42A007B6FD4 /* libz.dylib */,
+				DA8772441763B41F007B6FD4 /* ExternalAccessory.framework */,
+				DA87723D1763A904007B6FD4 /* PebbleKit.framework */,
+				DA8772421763B402007B6FD4 /* PebbleVendor.framework */,
+				DA8772201763A52E007B6FD4 /* UIKit.framework */,
+				DA8772221763A52E007B6FD4 /* Foundation.framework */,
+				DA8772241763A52E007B6FD4 /* CoreGraphics.framework */,
+				4ED4AD0C374C4B9F9AA49E32 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DA8772261763A52E007B6FD4 /* ADNPebble */ = {
+			isa = PBXGroup;
+			children = (
+				DA87722F1763A52E007B6FD4 /* AppDelegate.h */,
+				DA8772301763A52E007B6FD4 /* AppDelegate.m */,
+				DA1DF5391765144B00460E40 /* M */,
+				DA1DF53A1765145000460E40 /* V */,
+				DA1DF53B1765145200460E40 /* C */,
+				DA8772271763A52E007B6FD4 /* Supporting Files */,
+			);
+			path = ADNPebble;
+			sourceTree = "<group>";
+		};
+		DA8772271763A52E007B6FD4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA8772281763A52E007B6FD4 /* ADNPebble-Info.plist */,
+				DA8772291763A52E007B6FD4 /* InfoPlist.strings */,
+				DA87722C1763A52E007B6FD4 /* main.m */,
+				DA87722E1763A52E007B6FD4 /* ADNPebble-Prefix.pch */,
+				DA1DF5241763F44600460E40 /* Helpers.h */,
+				DA1DF5251763F44600460E40 /* Helpers.m */,
+				DA8772321763A52E007B6FD4 /* Default.png */,
+				DA8772341763A52E007B6FD4 /* Default@2x.png */,
+				DA8772361763A52E007B6FD4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA87721C1763A52E007B6FD4 /* ADNPebble */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA87723A1763A52E007B6FD4 /* Build configuration list for PBXNativeTarget "ADNPebble" */;
+			buildPhases = (
+				8672FFB68FC543C3AFE5942D /* Check Pods Manifest.lock */,
+				DA8772191763A52E007B6FD4 /* Sources */,
+				DA87721A1763A52E007B6FD4 /* Frameworks */,
+				DA87721B1763A52E007B6FD4 /* Resources */,
+				0E1FC5CF1E0E4BDEA58C9F77 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADNPebble;
+			productName = ADNPebble;
+			productReference = DA87721D1763A52E007B6FD4 /* ADNPebble.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA8772151763A52D007B6FD4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jorge Izquierdo";
+			};
+			buildConfigurationList = DA8772181763A52D007B6FD4 /* Build configuration list for PBXProject "ADNPebble" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DA8772141763A52D007B6FD4;
+			productRefGroup = DA87721E1763A52E007B6FD4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA87721C1763A52E007B6FD4 /* ADNPebble */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA87721B1763A52E007B6FD4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA87722B1763A52E007B6FD4 /* InfoPlist.strings in Resources */,
+				DA8772331763A52E007B6FD4 /* Default.png in Resources */,
+				DA8772351763A52E007B6FD4 /* Default@2x.png in Resources */,
+				DA8772371763A52E007B6FD4 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E1FC5CF1E0E4BDEA58C9F77 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+		8672FFB68FC543C3AFE5942D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA8772191763A52E007B6FD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA87722D1763A52E007B6FD4 /* main.m in Sources */,
+				DA8772311763A52E007B6FD4 /* AppDelegate.m in Sources */,
+				DA8772411763A987007B6FD4 /* JIPebbleInterface.m in Sources */,
+				DA87724B1763C5C7007B6FD4 /* ADNLogin.m in Sources */,
+				DA0B3B3C1763DAF300FD51B3 /* JIMessagesVC.m in Sources */,
+				DA1DF5261763F44600460E40 /* Helpers.m in Sources */,
+				DA1DF52F1763F91900460E40 /* Message.m in Sources */,
+				DA1DF535176424A600460E40 /* ADNHTTPClient.m in Sources */,
+				DA1DF5381765143700460E40 /* ADNHandler.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DA8772291763A52E007B6FD4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA87722A1763A52E007B6FD4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA8772381763A52E007B6FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA8772391763A52E007B6FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA87723B1763A52E007B6FD4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45DB8C5574341C5B1B8CED7 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADNPebble/ADNPebble-Prefix.pch";
+				INFOPLIST_FILE = "ADNPebble/ADNPebble-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DA87723C1763A52E007B6FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45DB8C5574341C5B1B8CED7 /* Pods.xcconfig */;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ADNPebble/ADNPebble-Prefix.pch";
+				INFOPLIST_FILE = "ADNPebble/ADNPebble-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA8772181763A52D007B6FD4 /* Build configuration list for PBXProject "ADNPebble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8772381763A52E007B6FD4 /* Debug */,
+				DA8772391763A52E007B6FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA87723A1763A52E007B6FD4 /* Build configuration list for PBXNativeTarget "ADNPebble" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA87723B1763A52E007B6FD4 /* Debug */,
+				DA87723C1763A52E007B6FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA8772151763A52D007B6FD4 /* Project object */;
+}
