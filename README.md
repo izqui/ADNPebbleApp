@@ -1,7 +1,7 @@
 # ADNPebbleApp
 
+![hey](https://dl.dropbox.com/s/n0r2lympwj9478m/Photo%2002-08-13%2021%2007%2024.png)
 I built this app in the **app.net hackathon** held June 8th in San Francisco.
-(Disclaimer: Don't judge me by this code's quality. Built it in a Hackathon)
 
 ##Installation
 
@@ -14,6 +14,7 @@ As I use CocoaPods to manage dependencies, you'll need to open the .xcworkspace 
 You will need to compile the app using xCode. It works great in iOS 7. It requires ADN Passport app in order to login. 
 
 ##Usage
+![1](https://dl.dropbox.com/s/90xvdy5jltp8w53/Photo%2002-08-13%2021%2008%2032.jpg)
 ADNPebble is a really simple app. At the moment you can only do two things: Post one of the messages you previously wrote in the iOS app (thinking about adding some kind of Pebble input in the future) and check your profile for your username, followers and following.  
 
 No read stream option yet. In the works.
